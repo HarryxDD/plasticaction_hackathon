@@ -1,0 +1,47 @@
+.app__prizes-bubble {
+    -webkit-transform: translate(50%,0%);
+    transform: translate(50%,1150%);
+    position: absolute;
+    left: 7%;
+    z-index: 5;
+    width: 10%;
+}
+
+.app__prizes-bottle {
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(20%,500%);
+    position: absolute;
+    width: 22%;
+    z-index: 5;
+}
+
+.app__prizes-bottle img {
+    animation: fadeInFromTop 1s linear forwards, floatingprize ease 10s infinite;
+}
+
+.app__prizes-noplastic {
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(20%,1550%);
+    right: 15%;
+    position: absolute;
+    width: 30%;
+    z-index: 5;
+}
+
+@keyframes floatingprize {
+    0% {
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+    25% {
+        transform: translate(15%, 5%) rotate(360deg);
+    }
+    50% {
+        transform: translate(10%, 5%) rotate(360deg);
+    }
+    75% {
+        transform: translate(15%, 5%) rotate(360deg);
+    }
+    100% {
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+}

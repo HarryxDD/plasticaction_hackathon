@@ -1,0 +1,39 @@
+.app__eligibility-bubble {
+    -webkit-transform: translate(50%,0%);
+    transform: translate(50%,1450%);
+    position: absolute;
+    right: 15%;
+    z-index: 5;
+    width: 10%;
+}
+
+.app__eligibility-bottle {
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(20%,1800%);
+    position: absolute;
+    width: 30%;
+    right: 15%;
+    z-index: 5;
+}
+
+.app__eligibility-bottle img {
+    animation: fadeInFromTop 1s linear forwards, floatingeligibility ease 10s infinite;
+}
+
+@keyframes floatingeligibility {
+    0% {
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+    25% {
+        transform: translate(10%, 1%) rotate(360deg);
+    }
+    50% {
+        transform: translate(5%, 2%) rotate(360deg);
+    }
+    75% {
+        transform: translate(10%, 1%) rotate(360deg);
+    }
+    100% {
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+}

@@ -1,0 +1,10 @@
+.app__background {
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+}
+
+.app__background img {
+    width: 100%;
+    pointer-events: none;
+}

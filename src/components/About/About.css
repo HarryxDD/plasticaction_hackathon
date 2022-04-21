@@ -1,0 +1,39 @@
+.app__about-bubble {
+    -webkit-transform: translate(50%,0%);
+    transform: translate(50%,390%);
+    position: absolute;
+    left: 15%;
+    z-index: 5;
+    width: 10%;
+}
+
+.app__about-bag {
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(50%,340%);
+    position: absolute;
+    width: 22%;
+    z-index: 5
+}
+
+.app__about-bag img {
+    animation: fadeInFromTop 1s linear forwards, floatingabout ease 10s infinite; 
+}
+
+
+@keyframes floatingabout {
+    0% {
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+    25% {
+        transform: translate(5%, 15%) rotate(360deg);
+    }
+    50% {
+        transform: translate(10%, 5%) rotate(360deg);
+    }
+    75% {
+        transform: translate(0%, 15%) rotate(360deg);
+    }
+    100% {
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+}

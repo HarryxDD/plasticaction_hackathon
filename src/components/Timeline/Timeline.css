@@ -1,0 +1,35 @@
+.app__timeline-cup {
+    -webkit-transform: translate(50%,0%);
+    transform: translate(50%,1750%);
+    position: absolute;
+    right: 8%;
+    z-index: 5;
+    width: 10%;
+}
+
+.app__timeline-bin {
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(20%,1450%);
+    position: absolute;
+    width: 15%;
+    right: 5%;
+    z-index: 5;
+}
+
+.bubble__four {
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(20%,1950%);
+    position: absolute;
+    width: 10%;
+    left: 10%;
+    z-index: 5;
+}
+
+.bubble__five {
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(20%,3850%);
+    position: absolute;
+    width: 15%;
+    right: 20%;
+    z-index: 5;
+}
