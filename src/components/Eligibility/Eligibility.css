@@ -37,3 +37,30 @@
         transform: translate(0%, 0%) rotate(360deg);
     }
 }
+
+@media screen and (max-width: 1700px) {
+    .app__eligibility-bubble {
+        transform: translate(50%,1400%);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .app__eligibility-bubble {
+        transform: translate(50%,1350%);
+    }
+
+    .app__eligibility-bottle {
+        right: 23%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .app__eligibility-bubble {
+        transform: translate(50%,1320%);
+    }
+
+    .app__eligibility-bottle {
+        transform: translate(20%,1750%);
+        right: 25%;
+    }
+}

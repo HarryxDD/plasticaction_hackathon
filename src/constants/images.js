@@ -1,4 +1,5 @@
-import background from '../assets/Backgound5.png'
+// import background from '../assets/Backgound5.png'
+import background from '../assets/Landing-page.png'
 import bb1 from '../assets/Bb1.svg'
 import bb2 from '../assets/bb2.svg'
 import bb3 from '../assets/bb3.svg'

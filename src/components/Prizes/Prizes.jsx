@@ -25,9 +25,9 @@ const Prizes = () => {
         <div className='app__prizes-bottle'>
             <img src={images.bottle} alt="" />
         </div>
-        <div className='app__prizes-noplastic'>
+        {/* <div className='app__prizes-noplastic'>
             <img src={images.noplastic} alt="" />
-        </div>
+        </div> */}
     </div>
   )
 }

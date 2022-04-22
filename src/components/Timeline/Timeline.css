@@ -2,9 +2,13 @@
     -webkit-transform: translate(50%,0%);
     transform: translate(50%,1750%);
     position: absolute;
-    right: 8%;
+    right: 9%;
     z-index: 5;
     width: 10%;
+}
+
+.app__timeline-cup img {
+    animation: fadeInFromTop 1s linear forwards, floatingcup ease 10s infinite;
 }
 
 .app__timeline-bin {
@@ -32,4 +36,68 @@
     width: 15%;
     right: 20%;
     z-index: 5;
+}
+
+@keyframes floatingcup {
+    0% {
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+    25% {
+        transform: translate(10%, 1%) rotate(360deg);
+    }
+    50% {
+        transform: translate(5%, 2%) rotate(360deg);
+    }
+    75% {
+        transform: translate(10%, 1%) rotate(360deg);
+    }
+    100% {
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .app__timeline-bin {
+        transform: translate(20%,1420%);
+    }
+
+    .bubble__four {
+        transform: translate(20%,1920%);
+    }
+
+    .bubble__five {
+        transform: translate(20%,3820%);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .app__timeline-bin {
+        transform: translate(20%,1400%);
+    }
+
+    .app__eligibility-bottle {
+        right: 23%;
+    }
+
+    .bubble__four {
+        transform: translate(20%,1890%);
+    }
+
+    .bubble__five {
+        transform: translate(20%,3720%);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .app__timeline-bin {
+        transform: translate(20%,1370%);
+    }
+
+    .bubble__four {
+        transform: translate(20%,1780%);
+    }
+
+    .bubble__five {
+        transform: translate(20%,3420%);
+    }
 }

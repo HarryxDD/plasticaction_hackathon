@@ -17,8 +17,15 @@
 .app__main {
   position: relative;
   width: 100vw;
-  height: fit-content;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
 }
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
 
 @keyframes faceInFromTop {
   from {
