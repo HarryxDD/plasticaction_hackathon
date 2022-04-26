@@ -19,13 +19,22 @@
     animation: fadeInFromTop 1s linear forwards, floatingprize ease 10s infinite;
 }
 
-.app__prizes-noplastic {
+.app__prizes-detail {
     -webkit-transform: translate(-50%,-50%);
-    transform: translate(20%,1550%);
+    transform: translate(20%,1570%);
     right: 15%;
     position: absolute;
     width: 30%;
     z-index: 5;
+}
+
+.app__prizes-detail img {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.app__prizes-detail img:hover {
+    transform: scale(1.1);
 }
 
 @keyframes floatingprize {
@@ -46,6 +55,13 @@
     }
 }
 
+
+@media screen and (min-width: 1750px) {
+    .app__prizes-detail {
+        transform: translate(20%,1600%);
+    }
+}
+
 @media screen and (max-width: 1700px) {
     .app__prizes-bubble {
         transform: translate(50%,1150%);
@@ -58,8 +74,42 @@
     }
 }
 
+@media screen and (max-width: 850px) {
+    .app__prizes-detail {
+        transform: translate(20%,1550%);
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .app__prizes-detail {
+        transform: translate(20%,1530%);
+    }
+}
+
 @media screen and (max-width: 500px) {
     .app__prizes-bubble {
         transform: translate(50%,1000%);
+    }
+
+    .app__prizes-detail {
+        transform: translate(20%,1500%);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .app__prizes-detail {
+        transform: translate(20%,1480%);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .app__prizes-detail {
+        transform: translate(20%,1460%);
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .app__prizes-detail {
+        transform: translate(20%,1440%);
     }
 }

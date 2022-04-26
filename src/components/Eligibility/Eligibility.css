@@ -20,6 +20,19 @@
     animation: fadeInFromTop 1s linear forwards, floatingeligibility ease 10s infinite;
 }
 
+/* .app__eligibility-regbutton {
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(20%,2900%);
+    position: absolute;
+    width: 20%;
+    left: 15%;
+    z-index: 5;
+}
+
+.app__eligibility-regbutton img {
+    width: 100%;
+} */
+
 @keyframes floatingeligibility {
     0% {
         transform: translate(0%, 0%) rotate(360deg);
