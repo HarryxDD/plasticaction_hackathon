@@ -25,9 +25,11 @@ const Prizes = () => {
         <div className='app__prizes-bottle'>
             <img src={images.bottle} alt="" />
         </div>
-        {/* <div className='app__prizes-noplastic'>
-            <img src={images.noplastic} alt="" />
-        </div> */}
+        <div className='app__prizes-detail'>
+            <a href="https://www.facebook.com/plasticactionvnuk">
+                <img src={images.detail} alt="" />
+            </a>
+        </div>
     </div>
   )
 }

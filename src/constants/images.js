@@ -1,5 +1,6 @@
 // import background from '../assets/Backgound5.png'
-import background from '../assets/Landing-page.png'
+// import background from '../assets/Landing-page.png'
+import background from '../assets/PA-Web.png'
 import bb1 from '../assets/Bb1.svg'
 import bb2 from '../assets/bb2.svg'
 import bb3 from '../assets/bb3.svg'
@@ -9,9 +10,11 @@ import bottle from '../assets/Bottle.svg'
 import cup  from '../assets/Cup.svg'
 import glassbottle from '../assets/Glass_bottle.svg'
 import noplastic from '../assets/No_plastic.svg'
-import register from '../assets/Register.svg'
+import register from '../assets/register.svg'
 import tuirac from '../assets/tui_rac.svg'
 import trashbin from '../assets/trashbin.svg'
+import detail from '../assets/Detail_button.png'
+import regbutton from '../assets/Register_button.png'
 
 export default {
     background,
@@ -26,5 +29,7 @@ export default {
     noplastic,
     register,
     tuirac,
-    trashbin
+    trashbin,
+    detail,
+    regbutton
 }

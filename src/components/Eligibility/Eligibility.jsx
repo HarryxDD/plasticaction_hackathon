@@ -26,6 +26,9 @@ const Eligibility = () => {
         <div className='app__eligibility-bottle'>
             <img src={images.glassbottle} alt="" />
         </div>
+        {/* <div className='app__eligibility-regbutton'>
+            <img src={images.regbutton} alt="" />
+        </div> */}
     </div>
   )
 }
